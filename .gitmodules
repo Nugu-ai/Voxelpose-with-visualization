@@ -1,0 +1,3 @@
+[submodule "voxelpose-pytorch"]
+	path = voxelpose-pytorch
+	url = https://github.com/microsoft/voxelpose-pytorch.git
