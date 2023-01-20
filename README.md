@@ -25,7 +25,9 @@ You may follow <a href="https://github.com/microsoft/voxelpose-pytorch#installat
 Prepare the datasets by following <a href="https://github.com/microsoft/voxelpose-pytorch#data-preparation">this</a>.<br>
 We have trained on Campus dataset (epoch until 15 approximately), yet still show decent visualization.<br>Please train more if wanted. <a href="https://github.com/microsoft/voxelpose-pytorch#training">Commands are same</a><br> 
 We have used the unfinished pretrained <a href="https://github.com/microsoft/voxelpose-pytorch/issues/3n">Shelf model</a>. We have trained with three datasets('160224_haggling1','160226_haggling1','160422_ultimatum1') and validated with ''160422_haggling1''<br>
-If you want to change the dataset for training, validation check `${POSE_ROOT}/lib/dataset/panoptic.py` <br><br>
+If you want to change the dataset for training, validation check `${POSE_ROOT}/lib/dataset/panoptic.py`.<br>
+You can get the pretrained models <a href="https://drive.google.com/file/d/1VvYwJQscSkLRTy6Qp9_mxl3T4ZwJazAw/view?usp=sharing">here</a>. And place it in `${POSE_ROOT}`
+<br><br>
 3. Run demo <br>
 We have made demo video on validation set if you want to visualize on different dataset, you can either simply modify the VAL_LIST given in `${POSE_ROOT}/lib/dataset/panoptic.py` or modify the cofig file.<br> After running one of the commands, demo_image file will be created forexample : `${POSE_ROOT}/output/panoptic/multi_person_posenet_50/prn64_cpn80x80x20_960x512_cam5/demo_image`
 
