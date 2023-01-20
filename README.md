@@ -12,7 +12,7 @@ Using mmpose to inference and visualize voxelpose only supports on CMU-Panoptic 
 3. Run demo <br>
 Please follow <a href="https://github.com/open-mmlab/mmpose/blob/master/demo/docs/3d_multiview_human_pose_demo.md">this docs</a> to run demo. Add your datasets' path to run this demo. <br><br>
 4. Concat images and make video again <br>
-We provide tools to concat image files(2d and 3d) and make those image files into demo video. Please refer to mmpose/concatimg.py, mmpose/mkvid.py. Add your own path to test this.
+We provide tools to concat image files(2d and 3d) and make those image files into demo video. Please refer to `mmpose/concatimg.py, mmpose/mkvid.py.` Add your own path to test this.
 
 
 
@@ -50,3 +50,8 @@ python test/mkvid.py
 
 5. Precautions <br>
 We have modified the `${POSE_ROOT}/lib/core/function.py` issued in <a href="https://github.com/microsoft/voxelpose-pytorch/issues/19">Shelf model</a>.
+
+
+
+
+## results
