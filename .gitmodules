@@ -1,0 +1,6 @@
+[submodule "voxelpose-pytorch"]
+	path = voxelpose-pytorch
+	url = https://github.com/microsoft/voxelpose-pytorch.git
+[submodule "mmpose"]
+	path = mmpose
+	url = https://github.com/open-mmlab/mmpose.git
