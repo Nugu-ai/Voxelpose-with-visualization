@@ -66,7 +66,7 @@ campus on shelf<br>
 | <img width="60%" src="./demo//test_campus_model with cam3_on_shelf.gif"/>     | Shelf      | Campus_cam3     |
 | <img width="60%" src="./demo/test_campus_model_on_campus.gif"/>               | Campus     | Campus          |
 | <img width="60%" src="./demo/test_campus_model_with cam5_on_shelf.gif"/>      | Shelf      | Campus_cam5     |
-| <img width="60%" src="./vdemo/test_shelf_model_on_shelf.gif"/>                | Shelf      | Shelf           |
+| <img width="60%" src="./demo/test_shelf_model_on_shelf.gif"/>                | Shelf      | Shelf           |
 | <img width="60%" src="./demo/test_shelf_model_with cam3_on_campus.gif"/>      | Campus     | Shelf_cam3      |
 | <img width="60%" src="./demo/test_shelf_model_with cam5_on_campus.gif"/>      | Campus     | Shelf_cam5      |
 | <img width="60%" src="./demo/test_panoptic_model_ with cam5 on panoptic.gif"/>| Panoptic   | Panoptic_cam5   |
