@@ -55,4 +55,19 @@ We have modified the `${POSE_ROOT}/lib/core/function.py` issued in <a href="http
 
 
 ## results
-시연 영상 및 이미지 게시할것
+
+### mmpose <br><br>
+
+### VoxelPose <br>
+There are few videos we have made you can check it out<br><br>
+campus on shelf<br>
+| Video                                                                                               | Dataset    | Model           |
+| ----------                                                                                          | :--------- | :-------------- |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_campus_model with cam3_on_shelf.gif"/>      | Shelf      | Campus_cam3     |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_campus_model_on_campus.gif"/>               | Campus     | Campus          |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_campus_model_with cam5_on_shelf.gif"/>      | Shelf      | Campus_cam5     |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_shelf_model_on_shelf.gif"/>                 | Shelf      | Shelf           |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_shelf_model_with cam3_on_campus.gif"/>      | Campus     | Shelf_cam3      |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_shelf_model_with cam5_on_campus.gif"/>      | Campus     | Shelf_cam5      |
+| <img width="60%" src="./voxelpose-pytorch/demo_gif/test_panoptic_model_ with cam5 on panoptic.gif"/>| Panoptic   | Panoptic_cam5   |
+
