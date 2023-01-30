@@ -29,7 +29,7 @@ If you want to change the dataset for training, validation check `${POSE_ROOT}/l
 You can get the pretrained models <a href="https://drive.google.com/file/d/1VvYwJQscSkLRTy6Qp9_mxl3T4ZwJazAw/view?usp=sharing">here</a>. And place it in `${POSE_ROOT}`
 <br><br>
 3. Run demo <br>
-Download mkvid.py and visualize.py file from <a href="">this repository</a> then place the two files at `${POSE_ROOT}/test`<br>
+Download mkvid.py and visualize.py file from <a href="https://github.com/Nugu-ai/Voxelpose-with-visualization/tree/main/Scripts">this repository</a> then place the two files at `${POSE_ROOT}/test`<br>
 We have made demo video on validation set if you want to visualize on different dataset, you can either simply modify the VAL_LIST given in `${POSE_ROOT}/lib/dataset/panoptic.py` or modify the cofig file.<br> After running one of the commands, demo_image file will be created forexample : `${POSE_ROOT}/output/panoptic/multi_person_posenet_50/prn64_cpn80x80x20_960x512_cam5/demo_image`
 
 ```
