@@ -46,7 +46,7 @@ python test/visualize.py --cfg configs/campus/prn64_cpn80x80x20.yaml
 4. Concat images and make video again <br>
 We provide tools to concat image files(located in demo_image) and make those image files into demo video. Please refer `${POSE_ROOT}/Scripts/mkvid.py`. Add your own path to test this. 
 ```
-python test/mkvid.py 
+python Scripts/mkvid.py 
 ```
 
 5. Precautions <br>
