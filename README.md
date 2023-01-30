@@ -66,7 +66,7 @@ There are few videos we have made you can check it out<br><br>
 campus on shelf<br>
 | Video                                                                         | Dataset    | Model           |
 | ----------                                                                    | :--------- | :-------------- |
-| <img width="60%" src="./demo//test_campus_model with cam3_on_shelf.gif"/>     | Shelf      | Campus_cam3     |
+| <img width="60%" src="./demo/test_campus_model with cam3_on_shelf.gif"/>     | Shelf      | Campus_cam3     |
 | <img width="60%" src="./demo/test_campus_model_on_campus.gif"/>               | Campus     | Campus          |
 | <img width="60%" src="./demo/test_campus_model_with cam5_on_shelf.gif"/>      | Shelf      | Campus_cam5     |
 | <img width="60%" src="./demo/test_shelf_model_on_shelf.gif"/>                | Shelf      | Shelf           |
