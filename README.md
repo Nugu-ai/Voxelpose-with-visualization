@@ -29,7 +29,7 @@ If you want to change the dataset for training, validation check `${POSE_ROOT}/l
 You can get the pretrained models <a href="https://drive.google.com/file/d/1VvYwJQscSkLRTy6Qp9_mxl3T4ZwJazAw/view?usp=sharing">here</a>. And place it in `${POSE_ROOT}`
 <br><br>
 3. Run demo <br>
-Download mkvid.py and visualize.py file from <a href="https://github.com/Nugu-ai/Voxelpose-with-visualization/tree/main/Scripts">this repository</a> then place the two files at `${POSE_ROOT}/test`<br>
+Download mkvid.py and visualize.py file from <a href="https://github.com/Nugu-ai/Voxelpose-with-visualization/tree/main/Scripts">this repository</a> then place the two files at `${POSE_ROOT}/Scripts`<br>
 We have made demo video on validation set if you want to visualize on different dataset, you can either simply modify the VAL_LIST given in `${POSE_ROOT}/lib/dataset/panoptic.py` or modify the cofig file.<br> After running one of the commands, demo_image file will be created forexample : `${POSE_ROOT}/output/panoptic/multi_person_posenet_50/prn64_cpn80x80x20_960x512_cam5/demo_image`
 
 ```
@@ -44,7 +44,7 @@ python test/visualize.py --cfg configs/campus/prn64_cpn80x80x20.yaml
 
 
 4. Concat images and make video again <br>
-We provide tools to concat image files(located in demo_image) and make those image files into demo video. Please refer `${POSE_ROOT}/test/mkvid.py`. Add your own path to test this. 
+We provide tools to concat image files(located in demo_image) and make those image files into demo video. Please refer `${POSE_ROOT}/Scripts/mkvid.py`. Add your own path to test this. 
 ```
 python test/mkvid.py 
 ```
@@ -58,7 +58,7 @@ We have modified the `${POSE_ROOT}/lib/core/function.py` issued in <a href="http
 ## results
 
 ### mmpose <br>
-This is a demo video of "160905_pizza1" we have made. (only first 15 seconds uploaded) <br>
+This is a demo video of "160905_pizza1" we have made. (only first 15 seconds uploaded) <br><br>
 <img width="100%" src="./demo/panoptic_pizza_demo.gif"/>
 
 ### VoxelPose <br>
